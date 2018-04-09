@@ -22,19 +22,19 @@ print(labelList)
 vec = DictVectorizer()
 dummyX = vec.fit_transform(featureList).toarray()
 
-print "dummyX: " + str(dummyX)
-print vec.get_feature_names()
-print "labelList: " + str(labelList)
+print("dummyX: " + str(dummyX))
+print(vec.get_feature_names())
+print("labelList: " + str(labelList))
 
 # vectorize class labels
 lb = preprocessing.LabelBinarizer()
 dummyY = lb.fit_transform(labelList)
-print "dummyY: ", str(dummyY)
+print("dummyY: ", str(dummyY))
 
 # Using decision tree for classification
 clf = tree.DecisionTreeClassifier(criterion='gini')
 clf = clf.fit(dummyX, dummyY)
-print "clf: ", str(clf)
+print("clf: ", str(clf))
 
 # Visualize model
 # dot -Tpdf iris.dot -o ouput.pdf

@@ -11,7 +11,7 @@ finally:
 def find_title():
     if testString.strip():
         title = re.search('<title>(.*?)</title>', testString, re.S).group(0)
-        print title
+        print(title)
         return title
 
 
@@ -22,7 +22,7 @@ def find_url():
 
 
 for s in find_url():
-    print s.decode("utf-8")
+    print(s.decode("utf-8"))
 string = "哈哈adsf，【】"
 s = re.findall('哈.*', string)
-print s[0]
+print(s[0])

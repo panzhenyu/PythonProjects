@@ -33,7 +33,7 @@ class Fib(object):
             return result
 
     def __call__(self):
-        print "this is Fibonacci sequence test !"
+        print("this is Fibonacci sequence test !")
 
     def __str__(self):
         return "this is Fibonacci sequence test !"
@@ -45,12 +45,12 @@ def fun():
 
 
 f = Fib()
-print Fib()[0]
-print Fib()[0:9]
-print callable(f)
+print(Fib()[0])
+print(Fib()[0:9])
+print(callable(f))
 f()
-print f
-print callable(fun)
-print callable(int)
-print int('12')
-print callable('int')
+print(f)
+print(callable(fun))
+print(callable(int))
+print(int('12'))
+print(callable('int'))
