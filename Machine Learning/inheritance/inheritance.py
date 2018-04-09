@@ -18,7 +18,7 @@ toolbox.register("mate", tools.cxTwoPoint)
 
 
 def evaluate(individual):
-    return (individual[0]**2+1,)
+    return (individual[0] ** 2 + 1,)
 
 
 toolbox.register("mate", tools.cxTwoPoint)

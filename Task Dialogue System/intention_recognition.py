@@ -35,7 +35,7 @@ def data2Mat(data):
 
 def training(dataMat, labels, filter, step, nh, num_h, limits=10000, learn=0.05):
     vecLen = shape(dataMat[0])[1]
-    classLen = len(labels[0])
+    classLen = alen(labels[0])
     classifier = textCNN.textCNN(vecLen, filter, step, nh, num_h, classLen)
     classifier.train(dataMat, labels, limits, learn)
     return classifier
@@ -48,16 +48,15 @@ def test():
     label.extend(t_label)
     label = one_hot.setOfWords2Mat(list(set(label)), label)
     dataMat = data2Mat(data)
-    data_num = len(dataMat)
+    data_num = alen(dataMat)
     training_idx = []
     test_idx = list(range(data_num))
     for i in range(int(data_num / 5)):
-        randIdx = random.random_integers(0, len(test_idx) - 1)
+        randIdx = random.random_integers(0, alen(test_idx) - 1)
         training_idx.append(test_idx[randIdx])
         del (test_idx[randIdx])
     trainingData = [dataMat[idx] for idx in training_idx]
     trainingLabel = [label[idx] for idx in training_idx]
-
 
     classifier = training(trainingData, trainingLabel, [1] * 50, 1, 20, 1, 10000)
     error = 0.0
@@ -66,7 +65,7 @@ def test():
         if argsort(predictLabel)[-1] != argsort(label[testSentenceIdx])[-1]:
             print(data[testSentenceIdx], " ", predictLabel, " ", label[testSentenceIdx])
             error += 1
-    print("error rate:", error / len(test_idx))
+    print("error rate:", error / alen(test_idx))
 
 
 test()

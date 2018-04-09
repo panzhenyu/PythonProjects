@@ -13,7 +13,7 @@ def loadDataSet(fileName, separator='\t'):
     fr = open(fileName)
     for line in fr.readlines():
         line = line.strip().split(separator)
-        strData = line[0:len(line) - 1]
+        strData = line[0:alen(line) - 1]
         floatData = map(lambda x: float(x), strData)
         dataList.append(floatData)
         labelList.append(float(line[-1]))

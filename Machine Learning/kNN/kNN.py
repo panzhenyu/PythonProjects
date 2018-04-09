@@ -20,8 +20,8 @@ def createDataSet():
 def file2matrix(filename, separator='\t'):
     fr = open(filename)
     arrayOfLines = fr.readlines()
-    numberOfLines = len(arrayOfLines)
-    numberOfFeature = len(arrayOfLines[0].strip().split(separator)) - 1
+    numberOfLines = alen(arrayOfLines)
+    numberOfFeature = alen(arrayOfLines[0].strip().split(separator)) - 1
     returnMat = zeros((numberOfLines, numberOfFeature))
     classLabelVector = []
     index = 0
@@ -80,7 +80,7 @@ def kNN(inX, dataSet, labels, k):
 def handwritingClassTest():
     hwLabels = []
     trainingFileList = listdir(r'trainingDigits')
-    trainingSize = len(trainingFileList)
+    trainingSize = alen(trainingFileList)
     trainingMat = zeros((trainingSize, 1024))
     for i in range(trainingSize):
         filename = trainingFileList[i]
@@ -89,7 +89,7 @@ def handwritingClassTest():
         trainingMat[i, :] = trainingVector
     testFileList = listdir(r'testDigits')
     errorCount = 0.0
-    testSize = len(testFileList)
+    testSize = alen(testFileList)
     for i in range(testSize):
         filename = testFileList[i]
         testVector = img2vector(r'testDigits/' + filename)

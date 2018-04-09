@@ -44,7 +44,7 @@ def stocGradAscent(dataMatix, classLabels, numIter=150):
         dataIndex = list(range(m))
         for i in range(m):
             alpha = 4 / (1.0 + j + i) + 0.0001
-            randIndex = int(random.uniform(0, len(dataIndex)))
+            randIndex = int(random.uniform(0, alen(dataIndex)))
             h = sigmoid(sum(dataMatix[randIndex] * weights))
             error = classLabels[randIndex] - h
             weights = weights + alpha * error * array(dataMatix[randIndex])  # float cannot multiply list, thus, need to convert list to array
@@ -100,24 +100,24 @@ def colicTest():
     for line in frTrain.readlines():
         data = line.strip().split('\t')
         training = list(map(lambda x: float(x), data))
-        trainingSet.append(training[0:len(training) - 1])
+        trainingSet.append(training[0:alen(training) - 1])
         trainingLabels.append(training[-1])
     testSet = []
     testLabels = []
     for line in frTest.readlines():
         data = line.strip().split('\t')
         test = list(map(lambda x: float(x), data))
-        testSet.append(test[0:len(test) - 1])
+        testSet.append(test[0:alen(test) - 1])
         testLabels.append(test[-1])
     weights = array(stocGradAscent(trainingSet, trainingLabels, 150))
     errorCounts = 0
-    for i in range(len(testSet)):
+    for i in range(alen(testSet)):
         vec = testSet[i]
         classifyResult = classifyVector(vec, weights)
         if classifyResult != testLabels[i]:
             errorCounts += 1
-    print("the error rate is: ", float(errorCounts) / len(testSet))
+    print("the error rate is: ", float(errorCounts) / alen(testSet))
 
 data, labels = loadDataSet()
 weights = mat(stocGradAscent(data, labels))
-plotBestFit(weights.transpose())
+plotBestFit(weights.T)

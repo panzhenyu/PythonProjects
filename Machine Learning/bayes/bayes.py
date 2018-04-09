@@ -21,7 +21,7 @@ def loadDataSet():
 def textParse(bigString):
     import re
     listOfTokens = re.split(r'\W*', bigString)
-    return [tok.lower() for tok in listOfTokens if len(tok) > 2]
+    return [tok.lower() for tok in listOfTokens if alen(tok) > 2]
 
 
 # convert dataSet to a list without common word
@@ -35,7 +35,7 @@ def createVocabList(dataSet):
 
 # convert sentence to wordVector based on vocabList
 def setOfWords2Vec(vocabList, inputSet):
-    returnVec = [0] * len(vocabList)
+    returnVec = [0] * alen(vocabList)
     for word in inputSet:
         if word in vocabList:
             returnVec[vocabList.index(word)] = 1
@@ -46,7 +46,7 @@ def setOfWords2Vec(vocabList, inputSet):
 
 # convert sentence to bag of words vector based on vocabList
 def bagOfWords2Vec(vocabList, inputSet):
-    returnVec = [0] * len(vocabList)
+    returnVec = [0] * alen(vocabList)
     for word in inputSet:
         if word in vocabList:
             returnVec[vocabList.index(word)] += 1
@@ -66,8 +66,8 @@ def calcMostFreq(vocabList, fullText, size=30):
 # training, return the word frequency vector of classes and frequency of class 1
 # default class is 1 and 0, modify code to support multi-classes
 def trainNBO(trainMatrix, trainCategory):
-    numTrainDocs = len(trainMatrix)
-    numWords = len(trainMatrix[0])
+    numTrainDocs = alen(trainMatrix)
+    numWords = alen(trainMatrix[0])
     pAbusive = sum(trainCategory) / float(numTrainDocs)
     p0Num = ones(numWords)
     p1Num = ones(numWords)
@@ -114,17 +114,17 @@ def spamTest():
     docList = []
     classList = []
     for i in range(1, 26):
-        wordList = textParse(open('email/spam/%d.txt' % i).read())
+        wordList = textParse(open('email/spam/%d.txt' % i, encoding='utf-8').read())
         docList.append(wordList)
         classList.append(1)
-        wordList = textParse(open('email/ham/%d.txt' % i).read())
+        wordList = textParse(open('email/ham/%d.txt' % i, encoding='utf-8').read())
         docList.append(wordList)
         classList.append(0)
     vocabList = createVocabList(docList)
     trainingSet = range(50)
     testSet = []
     for i in range(10):
-        randIndex = int(random.uniform(0, len(trainingSet)))
+        randIndex = int(random.uniform(0, alen(trainingSet)))
         testSet.append(trainingSet[randIndex])
         del (trainingSet[randIndex])
     trainMat = []
@@ -139,7 +139,7 @@ def spamTest():
         returnedClass = classifyNB(testDoc, p0V, p1V, pSpam)
         if returnedClass != classList[docIndex]:
             errorCounts += 1
-    print('the error rate is:', float(errorCounts) / len(testSet))
+    print('the error rate is:', float(errorCounts) / alen(testSet))
 
 
 # test bayes based on feedparser resource
@@ -147,8 +147,8 @@ def localWords(feed0, feed1):
     docList = []
     classList = []
     fullText = []
-    len0 = len(feed0['entries'])
-    len1 = len(feed1['entries'])
+    len0 = alen(feed0['entries'])
+    len1 = alen(feed1['entries'])
     minLen = min((len0, len1))
     for i in range(minLen):
         wordList = textParse(feed1['entries'][i]['summary'])
@@ -167,7 +167,7 @@ def localWords(feed0, feed1):
     trainingSet = range(2 * minLen)
     testSet = []
     for i in range(20):
-        randIndex = int(random.uniform(0, len(trainingSet)))
+        randIndex = int(random.uniform(0, alen(trainingSet)))
         testSet.append(trainingSet[randIndex])
         del (trainingSet[randIndex])
     trainMat = []
@@ -182,6 +182,7 @@ def localWords(feed0, feed1):
         returnClass = classifyNB(docVec, p0V, p1V, pSpam)
         if returnClass != classList[docIndex]:
             errorCount += 1
-    print("the error rate is:", float(errorCount) / len(testSet))
+    print("the error rate is:", float(errorCount) / alen(testSet))
+
 
 spamTest()

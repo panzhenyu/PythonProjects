@@ -11,7 +11,7 @@ class textCNN:
         self.vecLen = vecLen
         self.filterWidth = filter_width
         self.filterStep = filterStep
-        ni = len(filter_width)
+        ni = alen(filter_width)
         self.classifier = bpnn.bpnn(ni, nh, nh_layer, no)
         self.filters = []
         for width in self.filterWidth:
@@ -70,7 +70,7 @@ def testForEmail():
     trainingSet = list(range(50))
     testSet = []
     for i in range(10):
-        randIndex = int(random.uniform(0, len(trainingSet)))
+        randIndex = int(random.uniform(0, alen(trainingSet)))
         testSet.append(trainingSet[randIndex])
         del (trainingSet[randIndex])
     trainMat = []
@@ -78,7 +78,7 @@ def testForEmail():
     for docIndex in trainingSet:
         trainMat.append(one_hot.setOfWords2Mat(vocabList, docList[docIndex]))
         trainClasses.append(classList[docIndex])
-    cnn = textCNN(len(vocabList), [2, 3] * 50, 1, 50, 2, 1)
+    cnn = textCNN(alen(vocabList), [2, 3] * 50, 1, 50, 2, 1)
     cnn.train(trainMat, trainClasses)
 
     errorCounts = 0
@@ -90,4 +90,4 @@ def testForEmail():
         print(classList[docIndex][0], " ", returnedClass)
         if returnedClass != classList[docIndex][0]:
             errorCounts += 1
-    print('the error rate is:', float(errorCounts) / len(testSet))
+    print('the error rate is:', float(errorCounts) / alen(testSet))

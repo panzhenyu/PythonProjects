@@ -15,7 +15,7 @@ class Group:
     worstInd = []
     maxPop = 0
     def initPopulation(self, baseAmount):
-        geneSize = len(self.domain)
+        geneSize = alen(self.domain)
         for i in range(baseAmount):
             ind = []
             for geneIndex in range(geneSize):
@@ -42,15 +42,15 @@ class Group:
 
     def select(self, selectRate):
         newPopulationIndex = []
-        popAmount = len(self.population)
+        popAmount = alen(self.population)
         selectAmount = selectRate * popAmount
         fitness = copy(self.fitness)
         indIndex = argsort(fitness)
         pi = sort(fitness) / sum(fitness)
-        newPopulationIndex.append(indIndex[len(indIndex) - 1])
-        while len(newPopulationIndex) < selectAmount:
+        newPopulationIndex.append(indIndex[alen(indIndex) - 1])
+        while alen(newPopulationIndex) < selectAmount:
             r = random.random()
-            for index in range(len(pi)):
+            for index in range(alen(pi)):
                 r -= pi[index]
                 if r <= 0:
                     break
@@ -65,14 +65,14 @@ class Group:
         child = []
         for father in self.population:
             for mother in self.population:
-                if len(self.population) + len(child) > self.maxPop:
+                if alen(self.population) + alen(child) > self.maxPop:
                     self.population.extend(child)
                     return
                 elif father != mother and random.random() < pCrossExchange:
-                    if len(self.domain) == 1:
+                    if alen(self.domain) == 1:
                         print("the amount of variable is too few")
                         exit()
-                    r = int(random.uniform(1, len(self.domain) - 1))
+                    r = int(random.uniform(1, alen(self.domain) - 1))
                     c1 = list(copy(father))
                     c2 = list(copy(mother))
                     c1[r:], c2[r:] = c2[r:], c1[r:]
@@ -82,13 +82,13 @@ class Group:
 
     def mutation(self, pMutation, iterNum):
         child = []
-        for i in range(len(self.population)):
-            if len(self.population) + len(child) > self.maxPop:
+        for i in range(alen(self.population)):
+            if alen(self.population) + alen(child) > self.maxPop:
                 self.population.extend(child)
                 return
             elif random.random() < pMutation:
                 individual = list(copy(self.population[i]))
-                gIdx = int(random.uniform(0, len(self.domain) - 1))
+                gIdx = int(random.uniform(0, alen(self.domain) - 1))
                 gDomain = self.domain[gIdx]
 
                 vk = individual[gIdx]

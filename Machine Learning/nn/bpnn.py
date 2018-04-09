@@ -89,7 +89,7 @@ class bpnn:
         #         self.input_correction[i][h] = change
 
         error = 0.0
-        for o in range(len(label)):
+        for o in range(alen(label)):
             error += 0.5 * (label[o] - self.output_cells[o]) ** 2
 
         return error
@@ -97,7 +97,7 @@ class bpnn:
     def train(self, cases, labels, limit=10000, learn=0.05, correct=0.1):
         for j in range(limit):
             error = 0.0
-            for i in range(len(cases)):
+            for i in range(alen(cases)):
                 label = labels[i]
                 case = cases[i]
                 error += self.back_propagate(case, label, learn, correct)
