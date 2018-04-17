@@ -34,7 +34,7 @@ def randCent(dataMat, k):
 
 # kernel algorithm for k-means
 def kMeans(dataMat, k, distMeas=distEclud, createCent=randCent):
-    m = shape(dataMat)[0]
+    m = dataMat.shape[0]
     clusterAssment = mat(zeros((m,2)))
     centroids = createCent(dataMat, k)
     clusterChanged = True

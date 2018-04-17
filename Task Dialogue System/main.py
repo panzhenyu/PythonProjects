@@ -1,6 +1,6 @@
 # main process for task dialogue system
 
-import comprehension
+import Comprehension
 
 
 def init_sys():
@@ -10,4 +10,4 @@ def init_sys():
 init_sys()
 while (True):
     query = input()
-    intention, attribute, textVec = comprehension.getVector(query)
+    intention, attribute, textVec = Comprehension.getVector(query)
