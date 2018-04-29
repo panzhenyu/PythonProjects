@@ -6,6 +6,8 @@ import jieba
 from gensim.models.word2vec import LineSentence
 
 
+# do with chinese document
+# cut the chinese sentence and output to ${filename}.preDeal
 def preDeal(filename):
     src = open(filename)
     des = open(filename + ".preDeal", 'w')
@@ -20,7 +22,7 @@ def preDeal(filename):
 
 def train(filename, outfile):
     print('start training word2vec')
-    model = gensim.models.Word2Vec(LineSentence(filename), size=400, window=5, min_count=5)
+    model = gensim.models.Word2Vec(LineSentence(filename), size=200, window=5, min_count=5)
     model.save(outfile)
     print('successfully trained')
     return model
