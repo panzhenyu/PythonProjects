@@ -1,77 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Language/Tensorflow/test.py" line="39" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ec319def-1773-480b-a038-7e259edfcb23" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/PycharmProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PycharmProjects.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/panda.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/panda.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Language/.idea/codeStyleSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Language/.idea/codeStyleSettings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Language/.idea/dictionaries/78467.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Language/.idea/dictionaries/78467.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Language/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Language/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Language/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Language/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Language/.idea/pyTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Language/.idea/pyTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Language/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Language/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Language/SuperTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Language/SuperTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Language/baike_Banana.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Language/baike_Banana.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Language/classAttribute.py" beforeDir="false" afterPath="$PROJECT_DIR$/Language/classAttribute.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Language/decisionTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Language/decisionTree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Language/reTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Language/reTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/.idea/Machine Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning/.idea/Machine Learning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/.idea/dictionaries/78467.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning/.idea/dictionaries/78467.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/.idea/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning/.idea/other.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/bayes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning/bayes/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/bayes/bayes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning/bayes/bayes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/cluster/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning/cluster/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/cluster/k_means.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning/cluster/k_means.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/inheritance/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning/inheritance/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/inheritance/inheritance.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning/inheritance/inheritance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/inheritance/myInheritance.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning/inheritance/myInheritance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/kNN/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning/kNN/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/kNN/kNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning/kNN/kNN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/logistics/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning/logistics/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/logistics/logRegres.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning/logistics/logRegres.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/nn/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning/nn/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/nn/bpnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning/nn/bpnn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/regression/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning/regression/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/regression/regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning/regression/regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/svm/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning/svm/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/svm/svmMLiA.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning/svm/svmMLiA.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/tree/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning/tree/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/tree/treePlotter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning/tree/treePlotter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/tree/trees.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning/tree/trees.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task Dialogue System/.idea/Task Dialogue System.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Task Dialogue System/.idea/Task Dialogue System.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task Dialogue System/.idea/dictionaries/78467.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Task Dialogue System/.idea/dictionaries/78467.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task Dialogue System/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Task Dialogue System/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task Dialogue System/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Task Dialogue System/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task Dialogue System/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Task Dialogue System/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task Dialogue System/Comprehension.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task Dialogue System/Comprehension.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task Dialogue System/FastText/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task Dialogue System/FastText/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task Dialogue System/FastText/fastText.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task Dialogue System/FastText/fastText.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task Dialogue System/IntentionRecognize.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task Dialogue System/IntentionRecognize.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task Dialogue System/Models/mix.model-word2vec" beforeDir="false" afterPath="$PROJECT_DIR$/Task Dialogue System/Models/mix.model-word2vec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task Dialogue System/Models/wiki.model-word2vec" beforeDir="false" afterPath="$PROJECT_DIR$/Task Dialogue System/Models/wiki.model-word2vec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task Dialogue System/Models/wiki.model-word2vec.trainables.syn1neg.npy" beforeDir="false" afterPath="$PROJECT_DIR$/Task Dialogue System/Models/wiki.model-word2vec.trainables.syn1neg.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task Dialogue System/Models/wiki.model-word2vec.wv.vectors.npy" beforeDir="false" afterPath="$PROJECT_DIR$/Task Dialogue System/Models/wiki.model-word2vec.wv.vectors.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task Dialogue System/NeutralNetwork/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task Dialogue System/NeutralNetwork/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task Dialogue System/NeutralNetwork/bpnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task Dialogue System/NeutralNetwork/bpnn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task Dialogue System/NeutralNetwork/lstm.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task Dialogue System/NeutralNetwork/lstm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task Dialogue System/NeutralNetwork/rnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task Dialogue System/NeutralNetwork/rnn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task Dialogue System/NeutralNetwork/textCNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task Dialogue System/NeutralNetwork/textCNN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task Dialogue System/Regression/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task Dialogue System/Regression/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task Dialogue System/Regression/softmax.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task Dialogue System/Regression/softmax.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task Dialogue System/WordEmbedding/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task Dialogue System/WordEmbedding/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task Dialogue System/WordEmbedding/one_hot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task Dialogue System/WordEmbedding/one_hot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task Dialogue System/WordEmbedding/word2vec.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task Dialogue System/WordEmbedding/word2vec.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task Dialogue System/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Task Dialogue System/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task Dialogue System/mix" beforeDir="false" afterPath="$PROJECT_DIR$/Task Dialogue System/mix" afterDir="false" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PycharmProjects.iml" afterPath="$PROJECT_DIR$/.idea/PycharmProjects.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Machine Learning/nn/bpnn.py" afterPath="$PROJECT_DIR$/Machine Learning/nn/bpnn.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Task Dialogue System/Comprehension.py" afterPath="$PROJECT_DIR$/Task Dialogue System/Comprehension.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Task Dialogue System/IntentionRecognize.py" afterPath="$PROJECT_DIR$/Task Dialogue System/IntentionRecognize.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Task Dialogue System/main.py" afterPath="$PROJECT_DIR$/Task Dialogue System/main.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -81,45 +21,66 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/PycharmProjects$bayes.coverage" NAME="bayes Coverage Results" MODIFIED="1523289039140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine Learning/bayes" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$k_means.coverage" NAME="k_means Coverage Results" MODIFIED="1523289065613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine Learning/cluster" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$word2vec.coverage" NAME="word2vec Coverage Results" MODIFIED="1523594585903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Task Dialogue System/TextProcession" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$textCNN.coverage" NAME="textCNN Coverage Results" MODIFIED="1523445781982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Task Dialogue System/NeutralNetwork" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$reTest.coverage" NAME="reTest Coverage Results" MODIFIED="1523286438773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyTest" />
-    <SUITE FILE_PATH="coverage/PythonProjects$SuperTest.coverage" NAME="SuperTest Coverage Results" MODIFIED="1523966206736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Language" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$comprehension.coverage" NAME="comprehension Coverage Results" MODIFIED="1523269037276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Task Dialogue System" />
-    <SUITE FILE_PATH="coverage/PycharmProjects$intention_recognition.coverage" NAME="intention_recognition Coverage Results" MODIFIED="1523616678559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Task Dialogue System" />
     <SUITE FILE_PATH="coverage/PythonProjects$intention_recognition.coverage" NAME="intention_recognition Coverage Results" MODIFIED="1524748521015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Task Dialogue System" />
     <SUITE FILE_PATH="coverage/PycharmProjects$logRegres.coverage" NAME="logRegres Coverage Results" MODIFIED="1523289280442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine Learning/logistics" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$word2vec.coverage" NAME="word2vec Coverage Results" MODIFIED="1523594585903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Task Dialogue System/TextProcession" />
+    <SUITE FILE_PATH="coverage/PythonProjects$bpnn__1_.coverage" NAME="bpnn (1) Coverage Results" MODIFIED="1527044369810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine Learning/nn" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$reTest.coverage" NAME="reTest Coverage Results" MODIFIED="1523286438773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyTest" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$bayes.coverage" NAME="bayes Coverage Results" MODIFIED="1523289039140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine Learning/bayes" />
+    <SUITE FILE_PATH="coverage/PythonProjects$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1526893221743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Language" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$comprehension.coverage" NAME="comprehension Coverage Results" MODIFIED="1523269037276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Task Dialogue System" />
+    <SUITE FILE_PATH="coverage/PythonProjects$Comprehension.coverage" NAME="Comprehension Coverage Results" MODIFIED="1527069646293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Task Dialogue System" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$intention_recognition.coverage" NAME="intention_recognition Coverage Results" MODIFIED="1523616678559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Task Dialogue System" />
     <SUITE FILE_PATH="coverage/PythonProjects$lstm.coverage" NAME="lstm Coverage Results" MODIFIED="1524755832485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Task Dialogue System/NeutralNetwork" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$textCNN.coverage" NAME="textCNN Coverage Results" MODIFIED="1523445781982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Task Dialogue System/NeutralNetwork" />
+    <SUITE FILE_PATH="coverage/PythonProjects$SuperTest.coverage" NAME="SuperTest Coverage Results" MODIFIED="1523966206736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Language" />
+    <SUITE FILE_PATH="coverage/PycharmProjects$k_means.coverage" NAME="k_means Coverage Results" MODIFIED="1523289065613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine Learning/cluster" />
+    <SUITE FILE_PATH="coverage/PythonProjects$test.coverage" NAME="test Coverage Results" MODIFIED="1526904019154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Language/Tensorflow" />
+    <SUITE FILE_PATH="coverage/PythonProjects$bpnn.coverage" NAME="bpnn Coverage Results" MODIFIED="1527066539879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Language/Tensorflow" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
     <option name="GROUP_SCHEMA" value="true" />
     <option name="GROUP_CONTENTS" value="false" />
     <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="PythonProjects" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="lstm.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Task Dialogue System/NeutralNetwork/lstm.py">
+      <file leaf-file-name="Comprehension.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Task Dialogue System/Comprehension.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+            <state relative-caret-position="210">
+              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
               <folding>
-                <element signature="e#57#69#0" expanded="true" />
+                <element signature="e#94#119#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntentionRecognize.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Task Dialogue System/IntentionRecognize.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Task Dialogue System/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -151,7 +112,6 @@
         <option value="$PROJECT_DIR$/Machine Learning/bayes/bayes.py" />
         <option value="$PROJECT_DIR$/Machine Learning/inheritance/myInheritance.py" />
         <option value="$PROJECT_DIR$/Machine Learning/kNN/kNN.py" />
-        <option value="$PROJECT_DIR$/Machine Learning/nn/bpnn.py" />
         <option value="$PROJECT_DIR$/Machine Learning/svm/svmMLiA.py" />
         <option value="$PROJECT_DIR$/Machine Learning/tree/trees.py" />
         <option value="$PROJECT_DIR$/Task Dialogue System/FastText/__init__.py" />
@@ -168,13 +128,18 @@
         <option value="$PROJECT_DIR$/Task Dialogue System/intention_recognition.py" />
         <option value="$PROJECT_DIR$/Language/Super.py" />
         <option value="$PROJECT_DIR$/Language/SuperTest.py" />
-        <option value="$PROJECT_DIR$/Task Dialogue System/main.py" />
         <option value="$PROJECT_DIR$/Task Dialogue System/NeutralNetwork/bpnn.py" />
         <option value="$PROJECT_DIR$/Task Dialogue System/WordEmbedding/word2vec.py" />
         <option value="$PROJECT_DIR$/Task Dialogue System/NeutralNetwork/rnn.py" />
         <option value="$PROJECT_DIR$/Task Dialogue System/NeutralNetwork/rnn_torch.py" />
         <option value="$PROJECT_DIR$/Task Dialogue System/NeutralNetwork/lstm.py" />
+        <option value="$PROJECT_DIR$/Language/test.py" />
+        <option value="$PROJECT_DIR$/Language/Tensorflow/test.py" />
+        <option value="$PROJECT_DIR$/Machine Learning/nn/bpnn.py" />
+        <option value="$PROJECT_DIR$/Language/Tensorflow/bpnn.py" />
         <option value="$PROJECT_DIR$/Task Dialogue System/IntentionRecognize.py" />
+        <option value="$PROJECT_DIR$/Task Dialogue System/main.py" />
+        <option value="$PROJECT_DIR$/Task Dialogue System/Comprehension.py" />
       </list>
     </option>
   </component>
@@ -187,43 +152,65 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="289" />
-    <option name="y" value="123" />
-    <option name="width" value="943" />
-    <option name="height" value="761" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="59" />
+    <option name="width" value="1861" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <expand>
-            <path>
-              <item name="PythonProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonProjects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="Task Dialogue System" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PythonProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PythonProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PythonProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PythonProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Task Dialogue System" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="/usr/local/anaconda3/bin/python3.6" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -244,85 +231,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.lstm">
-    <configuration name="SuperTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PycharmProjects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Language" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Language/SuperTest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="intention_recognition" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PycharmProjects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Task Dialogue System" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Task Dialogue System/IntentionRecognize.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="lstm" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PycharmProjects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Task Dialogue System/NeutralNetwork" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Task Dialogue System/NeutralNetwork/lstm.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="textCNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PycharmProjects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Task Dialogue System/NeutralNetwork" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Task Dialogue System/NeutralNetwork/textCNN.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="word2vec" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PycharmProjects" />
+  <component name="RunManager" selected="Python.Comprehension">
+    <configuration default="false" name="word2vec" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -333,28 +243,288 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <module name="PycharmProjects" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Task Dialogue System/TextProcession/word2vec.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Nosetests">
-      <module name="PythonProjects" />
+    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Language/Tensorflow" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PycharmProjects" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Language/Tensorflow/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="bpnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Language/Tensorflow" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PycharmProjects" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Language/Tensorflow/bpnn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="bpnn (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Machine Learning/nn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PycharmProjects" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Machine Learning/nn/bpnn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Comprehension" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Task Dialogue System" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PycharmProjects" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Task Dialogue System/Comprehension.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <module name="PycharmProjects" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PycharmProjects" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PycharmProjects" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="PycharmProjects" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PycharmProjects" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonProjects" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
     </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonProjects" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonProjects" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.word2vec" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test" />
+      <item index="2" class="java.lang.String" itemvalue="Python.bpnn" />
+      <item index="3" class="java.lang.String" itemvalue="Python.bpnn (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Comprehension" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.Comprehension" />
+        <item index="1" class="java.lang.String" itemvalue="Python.bpnn" />
+        <item index="2" class="java.lang.String" itemvalue="Python.bpnn (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test" />
+        <item index="4" class="java.lang.String" itemvalue="Python.word2vec" />
+      </list>
+    </recent_temporary>
     <configuration default="true" type="tests" factoryName="Twisted Trial">
       <module name="PythonProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -369,51 +539,9 @@
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <module name="PythonProjects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="py.test">
-      <module name="PythonProjects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <list>
-      <item itemvalue="Python.word2vec" />
-      <item itemvalue="Python.textCNN" />
-      <item itemvalue="Python.lstm" />
-      <item itemvalue="Python.SuperTest" />
-      <item itemvalue="Python.intention_recognition" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.lstm" />
-        <item itemvalue="Python.intention_recognition" />
-        <item itemvalue="Python.SuperTest" />
-        <item itemvalue="Python.textCNN" />
-        <item itemvalue="Python.word2vec" />
-      </list>
-    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -440,96 +568,41 @@
   <component name="ToolWindowManager">
     <frame x="59" y="0" width="1861" height="1080" extended-state="6" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32899022" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295325" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3295325" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17248791" />
-      <window_info anchor="right" id="R Packages" order="3" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="R Graphics" order="3" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29362592" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17410469" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39916405" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pyTest/classAttribute.py" />
-    <entry file="file://$PROJECT_DIR$/pyTest/reTest.py" />
-    <entry file="file://$PROJECT_DIR$/pyTest/decisionTree.py" />
-    <entry file="file://$PROJECT_DIR$/pyTest/baike_Banana.txt" />
-    <entry file="file:///usr/local/anaconda3/lib/python3.6/logging/__init__.py" />
-    <entry file="file:///usr/local/anaconda3/lib/python3.6/site-packages/jieba/__init__.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-999827462/sys.py" />
-    <entry file="file://$PROJECT_DIR$/Machine Learning/cluster/k_means.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="59" column="37" lean-forward="true" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Task Dialogue System/WordEmbedding/wiki.zh.text.jian.preDeal" />
-    <entry file="file://$PROJECT_DIR$/Task Dialogue System/NeutralNetwork/email/ham/6.txt" />
-    <entry file="file://$PROJECT_DIR$/Task Dialogue System/train_train.txt" />
-    <entry file="file://$PROJECT_DIR$/Task Dialogue System/train_flight.txt" />
-    <entry file="file://$PROJECT_DIR$/Task Dialogue System/Comprehension.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Machine Learning/bayes/bayes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Task Dialogue System/WordEmbedding/one_hot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Task Dialogue System/NeutralNetwork/textCNN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Language/baike_Banana.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-82387">
-          <caret line="10" column="125" lean-forward="true" selection-start-line="10" selection-start-column="125" selection-end-line="10" selection-end-column="125" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Language/SuperTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -541,45 +614,17 @@
     <entry file="file:///usr/local/anaconda3/lib/python3.6/site-packages/torch/nn/modules/utils.py" />
     <entry file="file:///usr/local/anaconda3/lib/python3.6/site-packages/torch/nn/modules/conv.py" />
     <entry file="file:///usr/local/anaconda3/lib/python3.6/site-packages/torch/nn/modules/container.py" />
-    <entry file="file://$PROJECT_DIR$/Task Dialogue System/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/anaconda3/lib/python3.6/site-packages/torch/nn/parameter.py" />
     <entry file="file://$PROJECT_DIR$/Task Dialogue System/mix">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/local/anaconda3/lib/python3.6/site-packages/gensim/models/word2vec.py" />
     <entry file="file://$PROJECT_DIR$/Task Dialogue System/mix.preDeal" />
-    <entry file="file://$PROJECT_DIR$/Task Dialogue System/WordEmbedding/word2vec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/anaconda3/lib/python3.6/site-packages/gensim/models/base_any2vec.py" />
-    <entry file="file://$PROJECT_DIR$/Task Dialogue System/NeutralNetwork/bpnn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Task Dialogue System/NeutralNetwork/rnn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/anaconda3/lib/python3.6/site-packages/torch/nn/modules/activation.py" />
     <entry file="file:///usr/local/anaconda3/lib/python3.6/typing.py" />
     <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-999827462/builtins.py" />
@@ -587,7 +632,7 @@
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/collections/__init__.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+          <caret line="58" column="8" lean-forward="false" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -599,25 +644,195 @@
     <entry file="file:///usr/local/anaconda3/lib/python3.6/site-packages/torch/nn/modules/sparse.py" />
     <entry file="file:///usr/local/anaconda3/lib/python3.6/site-packages/torch/nn/functional.py" />
     <entry file="file:///usr/local/anaconda3/lib/python3.6/site-packages/torch/nn/modules/loss.py" />
-    <entry file="file:///usr/local/anaconda3/lib/python3.6/site-packages/torch/__init__.py" />
     <entry file="file:///usr/local/anaconda3/lib/python3.6/site-packages/torch/tensor.py" />
     <entry file="file:///usr/local/anaconda3/lib/python3.6/site-packages/torch/nn/modules/linear.py" />
     <entry file="file:///usr/local/anaconda3/lib/python3.6/site-packages/torch/nn/modules/rnn.py" />
     <entry file="file://C:/Program Files/Python36/Lib/turtle.py" />
-    <entry file="file://$PROJECT_DIR$/Task Dialogue System/IntentionRecognize.py">
+    <entry file="file:///usr/local/anaconda3/lib/python3.6/site-packages/jieba/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task Dialogue System/WordEmbedding/word2vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/anaconda3/lib/python3.6/site-packages/torch/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Language/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1469">
+          <caret line="786" column="6" lean-forward="false" selection-start-line="786" selection-start-column="6" selection-end-line="786" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/array_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="1518" column="44" lean-forward="true" selection-start-line="1518" selection-start-column="44" selection-end-line="1518" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Task Dialogue System/NeutralNetwork/lstm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+        <state relative-caret-position="210">
+          <caret line="47" column="27" lean-forward="true" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/variables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="122" column="28" lean-forward="false" selection-start-line="122" selection-start-column="15" selection-end-line="122" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task Dialogue System/NeutralNetwork/rnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task Dialogue System/NeutralNetwork/textCNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="51" column="45" lean-forward="true" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task Dialogue System/NeutralNetwork/bpnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="105" column="40" lean-forward="false" selection-start-line="105" selection-start-column="35" selection-end-line="105" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/1238484802/numpy/random/mtrand.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="2771" column="4" lean-forward="false" selection-start-line="2771" selection-start-column="4" selection-end-line="2771" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/gen_math_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="2262" column="40" lean-forward="true" selection-start-line="2262" selection-start-column="40" selection-end-line="2262" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/math_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="1337" column="4" lean-forward="false" selection-start-line="1337" selection-start-column="4" selection-end-line="1337" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/random_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="58" column="33" lean-forward="true" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Language/Tensorflow/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/anaconda3/lib/python3.6/site-packages/tensorflow/python/training/optimizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="326" column="6" lean-forward="false" selection-start-line="326" selection-start-column="6" selection-end-line="326" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Language/Tensorflow/bpnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="79" column="25" lean-forward="false" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
           <folding>
-            <element signature="e#57#69#0" expanded="true" />
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning/nn/bpnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="108" column="27" lean-forward="true" selection-start-line="108" selection-start-column="27" selection-end-line="108" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/anaconda3/lib/python3.6/site-packages/jieba/posseg/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="271" column="4" lean-forward="false" selection-start-line="271" selection-start-column="4" selection-end-line="271" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task Dialogue System/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/1238484802/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="278" column="4" lean-forward="false" selection-start-line="278" selection-start-column="4" selection-end-line="278" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task Dialogue System/Comprehension.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="e#94#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task Dialogue System/IntentionRecognize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>

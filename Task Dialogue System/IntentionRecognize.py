@@ -59,5 +59,3 @@ def test():
             print(data[testSentenceIdx], " ", predictLabel, " ", label[testSentenceIdx])
             error += 1
     print("error rate:", error / alen(test_idx))
-
-test()

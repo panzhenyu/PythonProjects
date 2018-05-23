@@ -115,7 +115,7 @@ class bpnn:
     def testFortestSet(self):
         cases = []
         labels = []
-        fp = open(r'testSet.txt')
+        fp = open(r'/home/panda/MLDatas/testSet.txt')
         for line in fp.readlines():
             line = line.strip().split('\t')
             x_arr = [float(x) for x in line[0:2]]
@@ -126,40 +126,40 @@ class bpnn:
                 labels.append([0])
         self.setup(2, 5, 1)
         self.train(cases, labels, 2000)
-        # sampleNum = len(cases)
-        # sampleIndex = range(len(cases))
-        # trainSet = []
-        # testSet = []
-        # while (len(sampleIndex) > sampleNum / 5):
-        #     randIdx = int(random.uniform(0, len(sampleIndex)))
-        #     trainSet.append(sampleIndex[randIdx])
-        #     del (sampleIndex[randIdx])
-        # while (len(sampleIndex) > 0):
-        #     testSet.append(sampleIndex[0])
-        #     del (sampleIndex[0])
-        #
-        # self.train(array(cases)[trainSet], array(labels)[trainSet], 10000, 0.01)
-        # errorNum = 0.0
-        # for testIdx in testSet:
-        #     testSample = cases[testIdx]
-        #     realLabel = labels[testIdx]
-        #     predictLabel = self.predict(testSample)
-        #     predictLabel[0] = 1 if predictLabel[0] > 0.5 else 0
-        #     if realLabel[0] != predictLabel[0]:
-        #         errorNum += 1
-        #         print "sample:", testSample, "realLabel:", realLabel, "predictLabel:", predictLabel
-        # print "test error rate:", errorNum / len(testSet)
-        #
-        # errorNum = 0.0
-        # for testIdx in trainSet:
-        #     testSample = cases[testIdx]
-        #     realLabel = labels[testIdx]
-        #     predictLabel = self.predict(testSample)
-        #     predictLabel[0] = 1 if predictLabel[0] > 0.5 else 0
-        #     if realLabel[0] != predictLabel[0]:
-        #         errorNum += 1
-        #         print "sample:", testSample, "realLabel:", realLabel, "predictLabel:", predictLabel
-        # print "train error rate:", errorNum / len(trainSet)
+        sampleNum = len(cases)
+        sampleIndex = range(len(cases))
+        trainSet = []
+        testSet = []
+        while (len(sampleIndex) > sampleNum / 5):
+            randIdx = int(random.uniform(0, len(sampleIndex)))
+            trainSet.append(sampleIndex[randIdx])
+            del (sampleIndex[randIdx])
+        while (len(sampleIndex) > 0):
+            testSet.append(sampleIndex[0])
+            del (sampleIndex[0])
+
+        self.train(array(cases)[trainSet], array(labels)[trainSet], 10000, 0.01)
+        errorNum = 0.0
+        for testIdx in testSet:
+            testSample = cases[testIdx]
+            realLabel = labels[testIdx]
+            predictLabel = self.predict(testSample)
+            predictLabel[0] = 1 if predictLabel[0] > 0.5 else 0
+            if realLabel[0] != predictLabel[0]:
+                errorNum += 1
+                print("sample:", testSample, "realLabel:", realLabel, "predictLabel:", predictLabel)
+        print("test error rate:", errorNum / len(testSet))
+
+        errorNum = 0.0
+        for testIdx in trainSet:
+            testSample = cases[testIdx]
+            realLabel = labels[testIdx]
+            predictLabel = self.predict(testSample)
+            predictLabel[0] = 1 if predictLabel[0] > 0.5 else 0
+            if realLabel[0] != predictLabel[0]:
+                errorNum += 1
+                print("sample:", testSample, "realLabel:", realLabel, "predictLabel:", predictLabel)
+        print("train error rate:", errorNum / len(trainSet))
 
 
 b1 = bpnn()
