@@ -2,10 +2,26 @@
 
 import IntentionRecognize
 import jieba.posseg as pseg
+import xml.dom.minidom
 
 def init():
-    global RULE
-    RULE = {}
+    global RULES
+    global SLOTS
+    RULES = {}
+    SLOTS = {}
+    intentions_dom = xml.dom.minidom.parse(r'./Knowledge/Intentions_slot_pattern.xml')
+    intentions_root = intentions_dom.documentElement
+    intentions_elem = intentions_root.getElementsByTagName('intention')
+    if intentions_elem == None:
+        print("no intention knowledge")
+        return
+    for intention in intentions_elem:
+        type = intention.getAttribute('type')
+        slots = [intention.childNode[i] for i in range(len(intention.childNode)) if isinstance(intention.childNode[i], xml.dom.minidom.Element)]
+        s_name = [slots[i].getAttribute('name') for i in range(len(slots))]
+        s_pattern = [slots[i].getElementsByTagName('name') for i in range(len(slots))]
+
+    SLOTS['flight'] = ['ori', 'dst', 'time', 'price']
 
 
 def preTreat(sentence):
@@ -24,14 +40,16 @@ def getWordList(text):
 
 
 def getIntention(text):
-    return "flight"
+    return 'flight'
 
 
 
 def getSlotValuePair(wordList, intention):
     retDic = {}
-    if intention == 'fligth':
-        pass
+    pos_rules = RULES.get(intention, [])
+    pos_slots = SLOTS.get(intention, [])
+    for slot in pos_slots:
+        retDic[slot] = None
     return retDic
 
 
@@ -41,6 +59,3 @@ def getVector(text):
     intention = getIntention(text)
     slot_value_pair = getSlotValuePair(wordList, intention)
     return (wordList, intention, slot_value_pair)
-
-init()
-print(RULE)

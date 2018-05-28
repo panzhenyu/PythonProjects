@@ -10,4 +10,8 @@ def init_sys():
 init_sys()
 while (True):
     query = input()
-    intention, slot_value_pair, textVec = Comprehension.getVector(query)
+    if query == 'exit':
+        break
+    vector = Comprehension.getVector(query)
+    intention, slot_value_pair, textVec = vector
+    print(vector)

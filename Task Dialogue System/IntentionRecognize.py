@@ -30,7 +30,7 @@ def training(dataMat, labels, filter, step, nh, num_h, limits=10000, learn=0.05)
     return classifier
 
 
-def test():
+def flight_train_model():
     data, label = loadDataSet(r'/home/panda/MLDatas/train_flight.txt')
     t_data, t_label = loadDataSet(r'/home/panda/MLDatas/train_train.txt')
     data.extend(t_data)
@@ -59,3 +59,5 @@ def test():
             print(data[testSentenceIdx], " ", predictLabel, " ", label[testSentenceIdx])
             error += 1
     print("error rate:", error / alen(test_idx))
+
+    return classifier

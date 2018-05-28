@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<intentions>
+
+    <intention type="flight">
+
+        <s1 name="ori">
+            <match-pattern>
+                <m1>
+                    *到*
+                </m1>
+            </match-pattern>
+        </s1>
+
+        <s2 name="dst">
+            <match-pattern>
+                <m1> </m1>
+            </match-pattern>
+        </s2>
+
+        <s3 name="time">
+            <match-pattern>
+                <m1> </m1>
+            </match-pattern>
+        </s3>
+
+        <s4 name="price">
+            <match-pattern>
+                <m1> </m1>
+            </match-pattern>
+        </s4>
+
+    </intention>
+
+    <intention type="train">
+    </intention>
+
+</intentions>
