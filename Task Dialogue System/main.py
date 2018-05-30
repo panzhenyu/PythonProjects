@@ -1,17 +1,84 @@
 # main process for task dialogue system
 
 import Comprehension
+import xml.dom.minidom
+import Response
 
-def init_sys():
-    print("Welcome to Task Dialogue System!")
+
+def load_IntentionInfo():
+
+    global SLOTS
+    global RULES
+    global RESPONSE
+    SLOTS = {}
+    RULES = {}
+    RESPONSE = {}
+
+    intentions_dom = xml.dom.minidom.parse(r'./Knowledge/IntentionInfo.xml')
+    intentions_root = intentions_dom.documentElement
+    intentions_elem = intentions_root.getElementsByTagName('intention')
+    if intentions_elem == None:
+        print("no intention knowledge")
+        return
+
+    for intention in intentions_elem:
+        type = intention.getAttribute('type')
+
+        slots = intention.getAttribute('slots').split(' ')
+        while '' in slots:
+            slots.remove('')
+
+        pattern = {}
+        match_pattern = intention.getElementsByTagName('match-pattern')
+        for p in match_pattern:
+            match_slots = p.getAttribute('slots')
+            contents = p.childNodes[0].data.split('\n')
+            contents = [contents[i].strip(' ') for i in range(len(contents))]
+            while '' in contents:
+                contents.remove('')
+            pattern[match_slots] = contents
+
+        model = {}
+        response_model = intention.getElementsByTagName('response-model')
+        for m in response_model:
+            res_slots = m.getAttribute('slots')
+            contents = m.childNodes[0].data.split('\n')
+            contents = [contents[i].strip(' ') for i in range(len(contents))]
+            while '' in contents:
+                contents.remove('')
+            model[res_slots] = contents
+
+        SLOTS[type] = slots
+        RULES[type] = pattern
+        RESPONSE[type] = model
+
+    print(SLOTS)
+    print(RULES)
+    print(RESPONSE)
+
+
+def load_Models():
     pass
 
 
-init_sys()
-while (True):
-    query = input()
-    if query == 'exit':
-        break
-    vector = Comprehension.getVector(query)
-    intention, slot_value_pair, textVec = vector
-    print(vector)
+def init_sys():
+    print("Welcome to Task Dialogue System!")
+    load_IntentionInfo()
+    load_Models()
+    pass
+
+
+def close_sys():
+    print("bye")
+
+
+if __name__ == '__main__':
+    init_sys()
+    while (True):
+        query = input()
+        if query == 'exit':
+            break
+        vector = Comprehension.getVector(query, SLOTS, RULES)
+        intention, slot_value_pair, textVec = vector
+        print(vector)
+    close_sys()
