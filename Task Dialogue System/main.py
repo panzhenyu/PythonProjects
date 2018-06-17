@@ -1,20 +1,19 @@
 # main process for task dialogue system
 
-import Comprehension
+import comprehension
 import xml.dom.minidom
-import Response
-
+from manager import SessionManager, Session
 
 def load_IntentionInfo():
 
     global SLOTS
     global RULES
-    global RESPONSE
+    global RESPONSE_PATTERN
     SLOTS = {}
     RULES = {}
-    RESPONSE = {}
+    RESPONSE_PATTERN = {}
 
-    intentions_dom = xml.dom.minidom.parse(r'./Knowledge/IntentionInfo.xml')
+    intentions_dom = xml.dom.minidom.parse(r'./resource/IntentionInfo.xml')
     intentions_root = intentions_dom.documentElement
     intentions_elem = intentions_root.getElementsByTagName('intention')
     if intentions_elem == None:
@@ -50,11 +49,11 @@ def load_IntentionInfo():
 
         SLOTS[type] = slots
         RULES[type] = pattern
-        RESPONSE[type] = model
+        RESPONSE_PATTERN[type] = model
 
     print(SLOTS)
     print(RULES)
-    print(RESPONSE)
+    print(RESPONSE_PATTERN)
 
 
 def load_Models():
@@ -65,7 +64,6 @@ def init_sys():
     print("Welcome to Task Dialogue System!")
     load_IntentionInfo()
     load_Models()
-    pass
 
 
 def close_sys():
@@ -73,12 +71,26 @@ def close_sys():
 
 
 if __name__ == '__main__':
+
     init_sys()
+    manager = SessionManager(RESPONSE_PATTERN)
+
     while (True):
         query = input()
         if query == 'exit':
             break
-        vector = Comprehension.getVector(query, SLOTS, RULES)
-        intention, slot_value_pair, textVec = vector
-        print(vector)
+
+        textVec = comprehension.getWordList(query)
+        intention, credit = comprehension.getIntention(query)
+        sess = Session(intention, SLOTS[intention], credit)                                             # create session
+
+        manager.manage(sess, textVec)                                                                   # manage session
+        posIntention = manager.getPos()
+
+        slot_value_pair = comprehension.getSlotValuePair(textVec, posIntention.intention, SLOTS, RULES) # get slot value
+        posIntention.embedValue(slot_value_pair)                                                        # embed slot by value
+
+        print((textVec, intention, slot_value_pair))
+        manager.response()                                                                              # response to user
+
     close_sys()

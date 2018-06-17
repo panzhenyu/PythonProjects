@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <title>order management</title>
+        <link rel="stylesheet" type="text/css" href="order management.css">
+
+    </head>
+
+    <body>
+
+        <div class="wrap">
+
+            <div class="header">
+
+                <div class="head">
+
+                    <a href=""> < </a>
+
+                    我的订单
+
+                </div>
+
+                <div class="nav">
+
+                    <ul>
+
+                        <li>全部</li>
+
+                        <li>已付款</li>
+
+                        <li>未付款</li>
+
+                        <li>待收货</li>
+
+                        <li>待评价</li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="content">
+
+                <div class="cell1">
+
+                    <div class="title">
+
+                        特斯拉<span>交易成功</span>
+
+                    </div>
+
+                    <div class="cell">
+
+                        <div class="text">
+
+                            <div class="brand">特斯拉</div>
+
+                            <span class="intro">新能源汽车五座座小型轿车五座汽车五座小型轿车五座汽车</span>
+
+                            <span class="spay">应付账款￥330.090</span>
+
+                            <span class="pay">实际付款：￥330.000</span>
+
+                        </div>
+
+                        <div class="img"><img src="./dd.jpg"/></div>
+
+                    </div>
+
+                    <div class="footer">
+
+                        <div class="btn">
+
+                            <div class="option">
+
+                                删除订单
+
+                            </div>
+
+                            <div class="option">
+
+                                置换新车
+
+                            </div>
+
+                            <div class="option">
+
+                                立即评价
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="cell1">
+
+                <div class="title">
+
+                    特斯拉<span>交易成功</span>
+
+                </div>
+
+                <div class="cell">
+
+
+                    <div class="text">
+
+                        <div class="brand">特斯拉</div>
+
+                        <span class="intro">新能源汽车五座座小型轿车五座汽车五座小型轿车五座汽车</span>
+
+                        <span class="spay">应付账款￥330.090</span>
+
+                        <span class="pay">实际付款：￥330.000</span>
+
+                    </div>
+
+                    <div class="img"><img src="./dd.jpg"/></div>
+
+                </div>
+
+                <div class="footer">
+
+                    <div class="btn">
+
+                        <div class="option">
+
+                            删除订单
+
+                        </div>
+
+                        <div class="option">
+
+                            置换新车
+
+                        </div>
+
+                        <div class="option">
+
+                            立即评价
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="cell1">
+
+            <div class="title">
+
+                特斯拉<span>交易成功</span>
+
+            </div>
+
+            <div class="cell">
+
+
+                <div class="text">
+
+                    <div class="brand">特斯拉</div>
+
+                    <span class="intro">新能源汽车五座座小型轿车五座汽车五座小型轿车五座汽车</span>
+
+                    <span class="spay">应付账款￥330.090</span>
+
+                    <span class="pay">实际付款：￥330.000</span>
+
+                </div>
+
+                <div class="img"><img src="./dd.jpg"/></div>
+
+            </div>
+
+            <div class="footer">
+
+                <div class="btn">
+
+                    <div class="option">
+
+                        删除订单
+
+                    </div>
+
+                    <div class="option">
+
+                        置换新车
+
+                    </div>
+
+                    <div class="option">
+
+                        立即评价
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="cell1">
+
+            <div class="title">
+
+                特斯拉<span>交易成功</span>
+
+            </div>
+
+            <div class="cell">
+
+
+                <div class="text">
+
+                    <div class="brand">特斯拉</div>
+
+                    <span class="intro">新能源汽车五座座小型轿车五座汽车五座小型轿车五座汽车</span>
+
+                    <span class="spay">应付账款￥330.090</span>
+
+                    <span class="pay">实际付款：￥330.000</span>
+
+                </div>
+
+                <div class="img"><img src="./dd.jpg"/></div>
+
+            </div>
+
+            <div class="footer">
+
+                <div class="btn">
+
+                    <div class="option">
+
+                        删除订单
+
+                    </div>
+
+                    <div class="option">
+
+                        置换新车
+
+                    </div>
+
+                    <div class="option">
+
+                        立即评价
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            autoSize();
+
+            window.onresize = function () {
+                autoSize();
+
+            };
+
+            function autoSize() {
+
+        // 获取当前浏览器的视窗宽度，放在w中
+
+                var w = document.documentElement.clientWidth;
+
+        // 计算实际html font-size大小
+
+                var size = w * 100 / 375;
+
+        // 获取当前页面中的html标签
+
+                var html = document.querySelector('html');
+
+        // 设置字体大小样式
+
+                html.style.fontSize = size + 'px';
+
+            }
+        </script>
+
+    </body>
+
+</html>

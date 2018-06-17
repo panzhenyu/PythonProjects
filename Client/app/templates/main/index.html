@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <form method="post">
+        {{ form.username }}
+        {{ form.password }}
+        {{ form.submit(value='登录') }}
+    </form>
+    <script>
+        (function() {
+            var form = $("form");
+            form.submit = function () {
+                $.post("www.baidu.com", function (res) {
+                    console.log(res);
+                })
+                return false;
+            }
+        })()
+    </script>
+</body>
+</html>

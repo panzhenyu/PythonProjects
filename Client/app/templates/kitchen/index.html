@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>订单管理</title>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+</head>
+<body>
+
+    <div class="orders" id="10">
+        <div class="haha">haha</div>
+    </div>
+
+    <p id='p1'>haha</p>
+
+    <script type="text/javascript">
+
+        function reloadOrderInfo() {
+            $("#orderInfo").load("orderInfo")
+        }
+
+{#        setInterval("reloadOrderInfo()", 2000);#}
+
+        function addOrder(orderID, orderInfo) {
+            orders = $(".orders");
+            orders.append("<div class='order'");
+            var foodArray = new Array(10);
+
+        }
+
+        function addFood() {
+            orders = $(".orders");
+            orders.append("<div class='food'>food1</div>");
+            orders.append("<div class='food'>food2</div>");
+            orders.append("<div class='food'>food3</div>");
+        }
+
+
+
+        addFood();
+    </script>
+</body>
+</html>

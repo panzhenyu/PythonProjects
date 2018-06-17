@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>submit</title>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+
+<!--     <script src="https://cdn.bootcss.com/web-socket-js/1.0.0/web_socket.js"></script> -->
+
+</head>
+<body>
+    <form id="orderForm" method="post">
+        serial_number:{{ orderForm.serial_number }}<br>
+        restaurant_id:{{ orderForm.restaurant_id}}<br>
+        user_id:{{ orderForm.user_id }}<br>
+        table_id:{{ orderForm.table_id }}<br>
+        time:{{ orderForm.time }}<br>
+        foods:{{ orderForm.foods }}<br>
+        state:{{ orderForm.state }}<br>
+        other_info:{{ orderForm.other_info }}<br>
+        {{ orderForm.submit(value="submit") }}
+    </form>
+
+    <script type="text/javascript" charset="utf-8">
+    	function initWebSocket() {
+	    	if(window.WebSocket != undefined) {
+	    		alert("support websocket");
+	    		var connection = new WebSocket("ws://" + window.location.host + "/kitchen");
+
+	    		ws.onopen = function() {
+	    			data = ""
+	    			$("#orderForm #serial_number").each(function(index, elem) {
+	    				data += String(elem.value) + " "
+	    			})
+	    			alert(data);
+	    			// ws.send(data);
+	    		}
+	    	}
+    	}
+    </script>
+</body>
+</html>

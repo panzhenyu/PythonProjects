@@ -3,9 +3,9 @@
 # classifier returns a most possible class
 
 import jieba
-from NeutralNetwork import textCNN
-from WordEmbedding import one_hot
-from WordEmbedding import word2vec
+from nn import textCNN
+from wordEmbedding import one_hot
+from wordEmbedding import word2vec
 import gensim
 from numpy import *
 

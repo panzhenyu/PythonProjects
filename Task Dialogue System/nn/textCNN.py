@@ -2,7 +2,7 @@
 # panda
 # -*- coding: utf-8 -*-
 from numpy import *
-from NeutralNetwork import bpnn
+from nn import bpnn
 
 
 class textCNN:
